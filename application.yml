@@ -9,10 +9,10 @@ eureka:
     
 microservice:
     db-service:
-      endpoints:
-        endpoint:
-          uri: http://db-service/rest/db/
+       endpoints:
+          endpoint:
+                 uri: http://db-service/rest/db/
    stock-service:
-    endpoints:
-      endpoint:
-        uri: http://stock-service/rest/stock/
+         endpoints:
+            endpoint:
+                   uri: http://stock-service/rest/stock/

@@ -8,11 +8,11 @@ eureka:
     hostname: localhost
     
 microservice:
-    db-service:
-       endpoints:
-          endpoint:
-                 uri: http://db-service/rest/db/
-   stock-service:
-         endpoints:
-            endpoint:
-                   uri: http://stock-service/rest/stock/
+  db-service:
+    endpoints:
+      endpoint:
+        uri: http://db-service/rest/db/
+  stock-service:
+    endpoints:
+      endpoint:
+        uri: http://stock-service/rest/stock/
